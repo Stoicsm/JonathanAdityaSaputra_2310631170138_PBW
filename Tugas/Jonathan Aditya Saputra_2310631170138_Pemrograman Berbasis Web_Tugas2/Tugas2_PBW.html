@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Aditya Saputra_2310631170138</title>
+</head>
+<body>
+    <p>Nama  : <input type="text" name="Nama"></p>
+    <p>Email : <input type="text" name="Email"></p>
+   
+    <p>Jenis kelamin : 
+        <label><input type="radio" name="Jenis kelamin" value="male"> Laki-laki</label>
+        <label><input type="radio" name="Jenis kelamin" value="female"> Perempuan</label></p>
+
+    <p>Hobi : 
+        <label><input type="checkbox" name="Hobi" value="Musik"> Musik</label>
+        <label><input type="checkbox" name="Hobi" value="Olahraga"> Olahraga</label>
+        <label><input type="checkbox" name="Hobi" value="Berenang"> Berenang</label></p>
+
+    <p>Pilih kota : 
+        <select name="Pilih kota">
+        <option value="1">Jakarta</option>
+        <option value="2">Semarang</option>
+    </select></p>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="file">Upload foto : </label>
+        <input type="file" id="file" name="file">
+    </form>
+    <button type="submit">Daftar</button>
+</body>
+</html>
